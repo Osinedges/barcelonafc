@@ -2,3 +2,12 @@
 .columns img {
 	max-width: 100%;
 }
+
+.header-button {
+	background: orange;
+	border: 2px solid red;
+	border-radius: 4px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
