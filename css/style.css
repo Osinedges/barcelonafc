@@ -1,0 +1,4 @@
+.column img,
+.columns img {
+	max-width: 100%;
+}
