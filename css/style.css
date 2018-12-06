@@ -3,11 +3,81 @@
 	max-width: 100%;
 }
 
+html {
+	background: linear-gradient(to right, #641209 0%,#641209 50%,#641209 50%,#0e2e67 50%,#0e2e67 100%);
+}
+
 .header-button {
-	background: #ff3b3b;
+	background-image: linear-gradient(to bottom, #f3d381, #DFA038);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f3d381, endColorstr=#DFA038);
+	font-weight: bold;
+	text-shadow:
+    -1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;  
 	border: 2px solid black;
 	border-radius: 4px;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	text-align: center;
 }
+
+body {
+	background-image: url('../images/players.png');
+	background-size: 50%;
+	background-position: 38% bottom;
+	   background-repeat: no-repeat;
+	   min-height: 125vh;
+}
+
+.gradient-bar {
+	background: linear-gradient(90deg,#cd122d 0,#154284);
+	height: 20px;
+}
+
+/*
+SELECTOR {
+	RULE;
+	...;
+	...;
+	...;
+}
+
+.friend {
+	coffee: with-milk;
+}
+
+KAYLEIGH {
+	coffee: black;
+	bread: toasted;
+}
+
+MIKE {
+	coffee: with-milk;
+	bread: raw;
+}
+
+KAYLEIGH {
+	coffee: with-milk;
+}
+
+MIKE, KAYLEIGH {
+	chocolate: milk;
+}
+*/
+
+
+/*
+
+SELECTORS:
+
+EITHER 1: tag
+OR 2: class
+OR 3: id
+
+body, p, a — tag
+.myClass, .blurgh — class
+#myId, #blurgh — ID
+row
+
+*/
