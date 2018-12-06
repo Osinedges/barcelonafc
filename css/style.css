@@ -9,17 +9,27 @@ html {
 
 .header-button {
 	background-image: linear-gradient(to bottom, #f3d381, #DFA038);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f3d381, endColorstr=#DFA038);
-	font-weight: bold;
-	text-shadow:
-    -1px -1px 0 #FFF,
-    1px -1px 0 #FFF,
-    -1px 1px 0 #FFF,
-    1px 1px 0 #FFF;  
 	border: 2px solid black;
 	border-radius: 4px;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	text-align: center;
+	color: black;
+	font-weight: bold;
+	text-shadow:
+    -1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+	1px 1px 0 #FFF;  
+	text-decoration: none;
+}
+
+.header-button.left-side:hover {
+	color: #641209;
+}
+
+.header-button.right-side:hover {
+	color: #0e2e67;
 }
 
 body {
@@ -27,8 +37,7 @@ body {
 	background-size: 50%;
 	background-position: 38% bottom;
 	   background-repeat: no-repeat;
-	   min-height: 100vh;
-	   padding-bottom: 220px;
+	   padding-bottom: 38%;
 }
 
 .gradient-bar {
