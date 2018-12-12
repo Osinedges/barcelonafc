@@ -6,6 +6,13 @@
 html {
 	background: linear-gradient(to right, #641209 0%,#641209 50%,#641209 50%,#0e2e67 50%,#0e2e67 100%);
 }
+.News-Box{
+	text-size-adjust: 12;
+	color: azure;
+	border: 2px solid #DFA038;
+	border-radius: 4px;
+
+}
 
 .header-button {
 	background-image: linear-gradient(to bottom, #f3d381, #DFA038);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f3d381, endColorstr=#DFA038);
