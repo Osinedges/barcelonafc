@@ -9,6 +9,19 @@ html {
 .Players-Image:hover {
 	transform: translateZ(0) scale(1.25);
 }
+.shop-Box-Image:hover{
+	transform: translateZ(0) scale(0.8)
+}
+.shop-Box{
+	color: white;
+	text-shadow: #DFA038;
+	background: #222;
+	overflow: hidden;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: 2px #DFA038;
+	border-radius: 2px;
+}
 .Players-Box{
 	color: white;
 	border: 2px solid #DFA038;
