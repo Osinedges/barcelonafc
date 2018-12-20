@@ -15,7 +15,7 @@ html {
 	margin: 20px;
 	
 }
-.form-submit-button{
+.submit{
 	color:white;
 }
 .nested-List{
@@ -69,7 +69,7 @@ html {
 }
 .action{
 	background: #222;
-	color: white;
+	color:black;
 	margin-left: auto;
 	margin-right: auto;
 
