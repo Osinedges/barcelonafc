@@ -9,8 +9,20 @@ html {
 .Players-Image:hover {
 	transform: translateZ(0) scale(1.25);
 }
+.about-Text{
+	color: #FFF;
+	background: #222;
+	margin: 20px;
+
+}
 .shop-Box-Image:hover{
-	transform: translateZ(0) scale(0.8)
+	transform: translateZ(0) scale(0.8);
+}
+.banner{
+	color: white;
+	border: 4px solid #DFA038;
+	background: black;
+	text-align: center;
 }
 .shop-Box{
 	color: white;
@@ -56,7 +68,29 @@ html {
 .News-Box-Image {
 	width: 100%;
 }
-
+.about-image{
+max-width: 750px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+.submit{
+	background-image: linear-gradient(to bottom, #f3d381, #DFA038);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f3d381, endColorstr=#DFA038);
+	border: 2px solid black;
+	border-radius: 4px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	text-shadow:
+    -1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+	1px 1px 0 #FFF;  
+	text-decoration: none;
+}
 .header-button {
 	background-image: linear-gradient(to bottom, #f3d381, #DFA038);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f3d381, endColorstr=#DFA038);
 	border: 2px solid black;
