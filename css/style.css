@@ -30,6 +30,32 @@ html {
 	background: black;
 	text-align: center;
 }
+.news-Banner{
+	color: white;
+	border: 4px solid #DFA038;
+	background: black;
+	text-align: center;
+}
+.contact-Banner{
+	color: white;
+	border: 4px solid #DFA038;
+	background: black;
+	text-align: center;
+}
+.shop-Banner{
+	color: white;
+	border: 4px solid #DFA038;
+	background: black;
+	text-align: center;
+}
+.action{
+	background: #222;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
 .shop-Box{
 	color: white;
 	text-shadow: #DFA038;
