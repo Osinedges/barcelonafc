@@ -55,6 +55,13 @@ html {
 	margin-right: auto;
 
 }
+form {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+
+}
 
 .shop-Box{
 	color: white;
