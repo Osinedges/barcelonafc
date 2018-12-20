@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Contact Us</title>
-
+    
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
@@ -20,34 +20,43 @@
         </div>
     </div>
     <div class="row">
-            <div class="twelve columns news-Banner">
-              <h1>
+        <div class="twelve columns contact-Banner">
+            <h1>
                 Please use the below form to get in contact with us!
-              </h1>
-            </div>
-          </div>
+            </h1>
+        </div>
+    </div>
+    <div class="row">
     <div class="container action">
-            <form action="action_page.php">
-          
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-              <label for="country">Country</label>
-              <select id="country" name="country">
+        <form action="action_page.php">
+            
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+            <p>Choose Gender</p>
+            <p>
+                Man: <input type="radio" name="sex" /><br />
+                Woman: <input type="radio" name="sex" />
+            </p>
+            <label for="country">Country</label>
+            <select id="country" name="country">
                 <option value="unitedkingdom">United Kingdom</option>
                 <option value="canada">Canada</option>
                 <option value="usa">USA</option>
-              </select>
-          
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
-          
-            </form>
-          </div>
+            </select>
+            
+            <label for="email">E-Mail Address</label>
+            <input type="text" id="email" name="email" placeholder="Your e-mail address...">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+            <input type="submit" value="Submit">
+            
+        </form>
+    </div>
+</div>
 </body>
 </html>
